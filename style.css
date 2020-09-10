@@ -37,7 +37,7 @@ h5 {
 /* Header*/
 
 header {
-	display: flex;
+  display: flex;
 }
 
 .bloc_photo {
@@ -145,6 +145,9 @@ section {
    max-width: 100%;
    margin-right: 30px;
 }
+
+/* Footer */
+
 footer {
   display: flex;
 }
@@ -162,12 +165,18 @@ ul {
 
 @media all and (max-width: 768px) {
 
-  .bloc_photo,.bloc_loisirs {
+  .bloc_photo,.bloc_loisirs,h3 {
     display: none;
   }
+   
+   body {
+    width: auto;
+   }
 
-   h1, h2, h3, h5, .rec {
+
+   h1, h5, .rec {
     font-size: 0.7em;
+    width: auto;
    }
 
   .bloc_titre {
@@ -192,10 +201,14 @@ ul {
   width: auto;
 }
   .formation {
-    margin: 10px;
+    width: auto;
+  }    
+  .date {
+    font-size: 0.5em
   }
-  
-    
-  
+
+  .titre {
+    font-size:0.6em;
+  }
+
 }
- 
