@@ -199,10 +199,6 @@ ul {
 
 
   }
-.bloc_recommandations, .bloc_titre {
-  display: flex
-  width:100%;
-}
   .formation {
     width: auto;
   }    
