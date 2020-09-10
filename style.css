@@ -170,7 +170,8 @@ ul {
   }
    
    body {
-    width: auto;
+    width: 800px;
+    margin:0px;
    }
 
 
@@ -187,6 +188,7 @@ ul {
   
   .bloc_gauche {
     margin-top : 30px;
+    width: auto;
   }
 
   .bloc_page, .bloc_gauche, h5 {
@@ -195,10 +197,11 @@ ul {
     width: auto;
     height: auto;
 
+
   }
 .bloc_recommandations, .bloc_titre {
   display: flex
-  width: auto;
+  width:100%;
 }
   .formation {
     width: auto;
