@@ -1,10 +1,11 @@
+
 h1 span {
-  font-family: 'opensans-regular';
+  font-family: 'Roboto', sans-serif;
   color: #EC6F66;
 }
 
 h1, h2 {
-  font-family: monospace;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
