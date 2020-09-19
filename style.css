@@ -6,6 +6,7 @@ h1 span {
 h1, h2 {
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  word-break: normal;
 }
 
 h2 {    
@@ -66,7 +67,7 @@ img {
 
 .container {
   display: grid;
-
+  word-break: normal;
   position: relative;
   margin: auto;
   grid-template-areas: "left header header header"
@@ -182,10 +183,7 @@ footer {
   align-content: center;
   background-color: #F3A183;
   padding: 5%;
-  
-
    
-
 }
 
 .icon_loisirs {
@@ -217,11 +215,12 @@ ul {
   .container {
   display: flex;
   flex-direction: column;
-   word-break: break-all;    
+  word-break: normal;   
   } 
 
   header {
   width: 100%;
+  font-size: 0.7em;
   }
 
   h2 {
@@ -284,16 +283,18 @@ ul {
 
   .container {
   display: flex;
-  flex-direction: column;    
+  flex-direction: column; 
+  word-break: normal;   
   } 
 
   header {
-    font-size: 3em;
+    font-size: 2em;
   width: 100%;
   }
 
   h2 {
     margin-top: 20px;
+
   }
 
   .left {
@@ -347,7 +348,7 @@ ul {
     margin-bottom: 10%;
   }
 
-    .icon_loisirs {
+  .icon_loisirs {
    display: flex;
    border: 2px solid rgb(61, 67, 71);
    border-radius: 50%;
