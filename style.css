@@ -89,7 +89,7 @@ img {
 }
   header {
     grid-area: header;
-     }
+}
 
 .title {
   grid-area: title;
@@ -100,24 +100,24 @@ img {
 .title3 {
   grid-area: title3;
   align-content: flex-start;
-  }
+}
 
 .title,.title2,.title3 {
  color: #EC6F66;
- }
+}
 
 .icon {
   grid-area: icon;
-  }
+}
 .icon2 {
   grid-area: icon2;
-  }
+}
 .icon3 {
   grid-area: icon3;
-  }
+}
 .icon4 {
   grid-area: icon4;
-  }
+}
 .icon,.icon2,.icon3,.icon4 {
   color: #EC6F66;
   margin-left: 40px;
