@@ -24,6 +24,16 @@ h2 span {
   margin-left: 20px;
 }
 
+h6 {
+  font-weight: normal;
+  font-size: 1em;
+  margin: 0px;
+}
+
+h4 {
+  font-weight: bold;
+}
+
 h4 span {
   border-bottom: solid;
   color: #EC6F66;
@@ -37,6 +47,8 @@ h5 {
   font-size: 1.5em;
   background-color: rgb(61, 67, 71);
 }
+
+
 
 body {
   width: 100%;
